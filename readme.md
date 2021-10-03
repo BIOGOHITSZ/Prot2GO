@@ -1,4 +1,4 @@
-### Readme
+# Readme
 
 **This repository contains implementation of Prot2GO in jupyter notebook**
 
@@ -15,3 +15,7 @@ PPI data:
 **Important:**
 i write the codes in different machines, so the datapathes in the scripts may be incorrect,please update the path with respect to the true path.
 what is more, hyper-parameters in our model is not the best, which means you can change them to get better results.
+
+# Abstract
+Protein is the main material basis of living organisms and plays crucial role in life activities. Understanding the function of protein is of great significance for new drug discovery, disease treatment and vaccine development. In recent years, with the widespread application of deep learning in bioinformatics, researchers have proposed many deep learning models to predict protein functions. However, the existing deep learning methods usually only consider protein sequences, and thus cannot effectively integrate multi-source data to annotate protein functions. In this article, we propose the Prot2GO model, which can integrate protein sequence and PPI network data to predict protein functions. We utilize an improved biased random walk algorithm to extract the features of PPI network. For sequence data, we use a convolutional neural network to obtain the local features of the sequence and a recurrent neural network to capture the long-range associations between amino acid residues in protein sequence. Moreover, Prot2GO adopts the attention mechanism to identify protein motifs and structural domains. Experiments show that Prot2GO model achieves the state-of-the-art performance on multiple metrics.
+
